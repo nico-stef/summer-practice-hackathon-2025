@@ -1,0 +1,100 @@
+.loginWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #a8c0ff, #3f2b96); /* albastru violet gradient */
+}
+
+/* Containerul formularului */
+.divLogin {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Titlu */
+.divLogin h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #3f2b96;
+}
+
+/* Grup de inputuri */
+form div {
+  margin-bottom: 20px;
+}
+
+/* Labeluri */
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Inputuri */
+input[type="text"],
+input[type="password"],
+input[type="name"] {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #3f2b96;
+}
+
+/* Butonul */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #3f2b96;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2c1f72;
+}
+
+.divLogin a {
+  color: #3f2b96;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.divLogin a:hover {
+  text-decoration: underline;
+}
+
+.logoutButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #c0392b;
+}
